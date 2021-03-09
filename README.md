@@ -4,7 +4,7 @@
 
 
 ## Let’s try out Protect with Webgoat (a vulnerable Java app) 
-Requriments: A Linux or Mac machine with Java installed. Basic understanding of Java , [Java Agent](https://www.developer.com/java/data/what-is-java-agent.html) , [WebGoat](https://github.com/WebGoat/WebGoat), Curl
+Requirements: A Linux or Mac machine with Java installed. Basic understanding of Java , [Java Agent](https://www.developer.com/java/data/what-is-java-agent.html) , [WebGoat](https://github.com/WebGoat/WebGoat), Curl
 
 1. Get the following attributes from the User Settings screen in the Contrast Portal. If you are not a customer you can use the free [Community Edition](https://www.contrastsecurity.com/contrast-community-edition) 
     - Organization ID, Authorization Header, API Key and Contrast URL
