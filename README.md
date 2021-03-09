@@ -11,8 +11,8 @@ Requriments: A Mac or Linux machine with Java installed. Basic understanding of 
 
 2. [Download WebGoat Server jar](https://github.com/WebGoat/WebGoat/releases/download/v8.1.0/webgoat-server-8.1.0.jar). Webgoat is a vulnerable application, so be careful about where you run it. Open a terminal and run steps 3 and 4 from the same folder where you placed the WebGoat jar
 
-3. Download contrast agent jar
-    - `curl --max-time 20 https://CONTRAST_URL/api/ng/ORG_ID/agents/default/JAVA -H API-Key:API_Key -H Authorization:Authorization_Header= -o contrast.jar`
+3. Download contrast agent jar. Replace the variables in <> with the values gathered in step 1.
+    - `curl --max-time 20 https://<CONTRAST_URL>/api/ng/<ORG_ID>/agents/default/JAVA -H API-Key:<API_Key> -H Authorization:<Authorization_Header>= -o contrast.jar`
 
 4. Start Webgoat and instrument it with Contrast agent
     - `java -javaagent:contrast.jar -Dcontrast.standalone.appname=Put_An_AppName  -Dcontrast.server=Put_A_ServerName -Dconstrast.protect.enabled=true -jar webgoat-server-8.1.0.jar`
