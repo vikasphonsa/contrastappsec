@@ -15,7 +15,7 @@ Requriments: A Mac or Linux machine with Java installed. Basic understanding of 
     - `curl --max-time 20 https://<CONTRAST_URL>/api/ng/<ORG_ID>/agents/default/JAVA -H API-Key:<API_Key> -H Authorization:<Authorization_Header>= -o contrast.jar`
 
 4. Start Webgoat and instrument it with Contrast agent
-    - `java -javaagent:contrast.jar -Dcontrast.standalone.appname=Put_An_AppName  -Dcontrast.server=Put_A_ServerName -Dconstrast.protect.enabled=true -jar webgoat-server-8.1.0.jar`
+    - `java -javaagent:contrast.jar -Dcontrast.standalone.appname=MyWebGoatTest  -Dcontrast.server=MyWebGoatTestServer -Dconstrast.protect.enabled=true -jar webgoat-server-8.1.0.jar`
 
 5. Exercise WebGoat by logging into http://localhost:8080/WebGoat/, trying some attacks manually, using a DAST tool or by using [my quick and dirty curl](webgoat-curl.md)
 
