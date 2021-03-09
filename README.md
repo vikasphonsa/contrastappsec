@@ -1,12 +1,12 @@
 ## Contrast Security Protect - Quick Trial
 
-[Contrast Protect](https://docs.contrastsecurity.com/en/protect.html) is a runtime attack detection and protection tool. You can compare it to a WAF, although WAF is sitting external to the application and Protect is embedded inside the app and has a very high degree of accuracy compared to a WAF. No hardware or software deployment is needed. You simply intrument you application with the Contrast agent and it starts detecting and blocking attacks
+[Contrast Protect](https://docs.contrastsecurity.com/en/protect.html) is a runtime web application security and observability tool. You can compare it to a WAF, although WAF is sitting external to the application and Protect is embedded inside the app and has a very high degree of accuracy compared to a WAF. No hardware or software deployment is needed. You simply intrument you application with the Contrast agent and it starts detecting and blocking attacks such as SQL Injection, Cross-site Scripting, Command Injection etc. 
 
 
 ## Let’s try out Protect with Webgoat 
 Requriments: A Mac or Linux machine with Java installed. Basic understanding of Java , [Java Agent](https://www.developer.com/java/data/what-is-java-agent.html) , [WebGoat](https://github.com/WebGoat/WebGoat), Curl
 
-1. Get the following attributes from User Settings screen in the Contrast Portal. If you are not a customer you can use the free [Community Edition](https://www.contrastsecurity.com/contrast-community-edition) 
+1. Get the following attributes from the User Settings screen in the Contrast Portal. If you are not a customer you can use the free [Community Edition](https://www.contrastsecurity.com/contrast-community-edition) 
     - Organization ID, Authorization Header, API Key and Contrast URL
 
 2. [Download WebGoat Server jar](https://github.com/WebGoat/WebGoat/releases/download/v8.1.0/webgoat-server-8.1.0.jar). Webgoat is a vulnerable application, so be careful about where you run it. In terminal, run steps 3 and 4 from the same folder where you placed the WebGoat jar
