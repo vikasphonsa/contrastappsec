@@ -1,4 +1,4 @@
-## Contrast Security Protect - Quick Trial
+## Contrast Security Protect - Quick Start
 
 [Contrast Protect](https://docs.contrastsecurity.com/en/protect.html) is a runtime web application security and observability tool. You can compare it to a WAF, although a WAF generally sits external to the application and Protect is embedded inside the app and has a very high degree of accuracy compared to a WAF. No hardware or software deployment is needed. You simply intrument you application with the Contrast agent and it starts detecting and blocking attacks such as SQL Injection, Cross-site Scripting, Command Injection etc. 
 
