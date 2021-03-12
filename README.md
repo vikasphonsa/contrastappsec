@@ -21,3 +21,4 @@ Requirements: A Linux or Mac machine with Java installed. Basic understanding of
 
 6. Log into Contrast portal UI. You should see your server under the Servers and attack traffic under the Attacks. Pat yourself on the back and continue exploring. Troubleshooting - If Protect doesn't appear ON or licensed in the UI, try turning the Protect autolicensing setting ON in the UI.
 
+For an easy Docker-based installation see: https://github.com/rstatsinger/IASTRASPLab
